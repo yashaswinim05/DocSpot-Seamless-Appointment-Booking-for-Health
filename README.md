@@ -1,122 +1,115 @@
+# Full Stack Development with MERN
 
-# DocSpot - Seamless Appointment Booking for Health
-
-## Full Stack Development with MERN
-
-DocSpot is an online doctor appointment booking system designed to simplify the process of scheduling appointments with healthcare professionals. It offers real-time booking, role-based access, and easy management for users, doctors, and admins.
+## DocSpot - Seamless Appointment Booking for Health
 
 ---
 
-## 📂 Project Features
+### 📌 Project Overview
 
-- ✅ Role-based Login for Users, Doctors, Admins  
-- ✅ Doctor Management and Approval  
-- ✅ Real-time Appointment Scheduling  
-- ✅ Admin Controls and User Management  
-- ✅ Responsive UI with React and Material UI  
+DocSpot is a MERN stack-based doctor appointment booking system allowing patients to schedule healthcare appointments easily and efficiently. The project eliminates manual processes by providing real-time online scheduling.
 
 ---
 
-## 🛠️ Tech Stack
+### 🚀 Project Features
 
-- **Frontend:** React, Material UI  
-- **Backend:** Node.js, Express.js  
-- **Database:** MongoDB  
+- Role-based Login for Users, Doctors, Admins  
+- Doctor Approval and Management  
+- Real-time Appointment Scheduling  
+- User-Friendly Booking System  
+- Admin Controls for Doctor/User Management  
+- Responsive Frontend with React and Material UI  
 
 ---
 
-## 📁 Project Folder Structure
+### 🧰 Tech Stack
+
+- **Frontend**: React with Material UI  
+- **Backend**: Node.js, Express.js  
+- **Database**: MongoDB  
+- **Tools**: Postman, Browser DevTools for Testing  
+
+---
+
+### 🗂 Folder Structure
 
 ```
-├── client      # React Frontend
-├── server      # Express Backend API
-├── Project Report
-├── Video Demo
-```
-
----
-
-## 🚀 Setup Instructions
-
-### Prerequisites
-- Node.js  
-- NPM  
-- MongoDB  
-
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/your-username/docspot-appointment-booking.git
-
-# Install frontend dependencies
-cd client
-npm install
-
-# Install backend dependencies
-cd ../server
-npm install
+/client        - React Frontend  
+/server        - Express Backend API  
+/Project Report - Documentation Files  
+/Video Demo     - Recorded Demo of Project  
 ```
 
 ---
 
-## 🖥️ Running the Application
+### ⚙️ Setup Instructions
 
-Start MongoDB server locally, then:
+1. Prerequisites: Install Node.js, NPM, MongoDB  
+2. Clone Repository from GitHub  
+3. Run `npm install` inside both `/client` and `/server` folders  
 
-```bash
-# Start Frontend
-cd client
-npm start
+---
 
-# Start Backend
-cd ../server
-npm start
+### ▶️ Running the Application
+
+- Ensure MongoDB server is running locally  
+- Frontend: Run `npm start` in `/client`  
+- Backend: Run `npm start` in `/server`  
+- Frontend URL: `http://localhost:3000`  
+- Backend API: `http://localhost:5000`  
+
+---
+
+### 📡 API Endpoints
+
+```
+POST /api/users/register     - Register a new user  
+POST /api/users/login        - Login for users  
+GET /api/users/doctors       - Fetch doctor list  
+POST /api/appointments       - Book an appointment  
 ```
 
-Application runs on:  
-Frontend: `http://localhost:3000`  
-Backend API: `http://localhost:5000`  
+---
+
+### 🔐 Authentication
+
+Email & Password based login system for Users, Doctors, and Admins.  
+*Future enhancement*: Implement JWT authentication.
 
 ---
 
-## 🔒 Authentication
-
-- Email & Password based authentication for all roles  
-- Planned future enhancement: JWT Security  
-
----
-
-## 📋 API Endpoints
-
-| Method | Endpoint              | Description           |
-|--------|-----------------------|-----------------------|
-| POST   | `/api/users/register` | Register a new user   |
-| POST   | `/api/users/login`    | Login for users       |
-| GET    | `/api/users/doctors`  | Fetch doctor list     |
-| POST   | `/api/appointments`   | Book an appointment   |
-
----
-
-## 🖥️ User Interfaces
+### 💻 User Interface Screens
 
 - Login & Registration Pages  
-- Doctor Listing & Booking Form  
-- User & Doctor Dashboards  
+- Doctor Listing Page  
+- Booking Form  
+- User Dashboard  
+- Doctor Dashboard  
 - Admin Approval Page  
 
 ---
 
-## 🧪 Testing
+### 🧪 Testing
 
 - Backend APIs tested using Postman  
-- Frontend tested across browsers with Chrome DevTools  
+- UI tested across modern browsers using Chrome DevTools  
+- Performance optimized for API and DB queries  
 
 ---
 
-## 👨‍💻 Team Members
+### 📅 Project Planning & Scheduling
 
-- Mamidi Yashaswini (Team Leader)  
+- Week 1: Requirement Gathering  
+- Week 2: UI Design Implementation  
+- Week 3: Frontend Development  
+- Week 4: Backend Development  
+- Week 5: Testing & Debugging  
+- Week 6: Final Submission and Demo  
+
+---
+
+### 👥 Team Members
+
+- Mamidi Yashaswini *(Team Leader)*  
 - Chinthakayala Balaji  
 - Veligandla Pranathi  
 - Shaik Irfan  
@@ -124,11 +117,36 @@ Backend API: `http://localhost:5000`
 
 ---
 
-## 🎥 Demo
+### ✅ Advantages
 
-Video demo available inside the `Video Demo` folder in the project repository.
+- Real-time Booking and Doctor Approval  
+- Scalable Architecture with MERN Stack  
+- Easy-to-use Interface  
 
 ---
 
-# 📌 Note
-This project is designed for academic and learning purposes, focusing on core MERN stack development.
+### ⚠️ Limitations & Future Scope
+
+- ❌ No Payment Gateway Integration (Planned)  
+- ❌ No Mobile App Version (Planned)  
+
+**Future Enhancements**:  
+- JWT Authentication  
+- Payment Integration  
+- Cloud Deployment  
+- Mobile App  
+- SMS/Email Notifications  
+
+---
+
+## 📽️ Demo
+
+<iframe src="https://drive.google.com/file/d/180JDaDJP01nu-xU6wG6LZwWE9oScPUpy/preview" width="640" height="360" allow="autoplay"></iframe>  
+
+🔗 [Click here to open the video directly in Google Drive](https://drive.google.com/file/d/180JDaDJP01nu-xU6wG6LZwWE9oScPUpy/view?usp=drivesdk)
+
+---
+
+### 📝 Note
+
+This project was developed as part of an academic Full Stack Development curriculum to demonstrate core MERN stack concepts in a real-world application.
