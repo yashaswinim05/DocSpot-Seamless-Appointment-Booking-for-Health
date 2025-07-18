@@ -3,6 +3,15 @@
 ## DocSpot - Seamless Appointment Booking for Health
 
 ---
+### 👥 Team Members
+
+- Mamidi Yashaswini *(Team Leader)*  
+- Chinthakayala Balaji  
+- Veligandla Pranathi  
+- Shaik Irfan  
+- Koneti Sreevidya  
+
+---
 
 ### 📌 Project Overview
 
@@ -107,15 +116,6 @@ Email & Password based login system for Users, Doctors, and Admins.
 
 ---
 
-### 👥 Team Members
-
-- Mamidi Yashaswini *(Team Leader)*  
-- Chinthakayala Balaji  
-- Veligandla Pranathi  
-- Shaik Irfan  
-- Koneti Sreevidya  
-
----
 
 ### ✅ Advantages
 
